@@ -6,6 +6,7 @@ declare module 'react-tooltip-lite' {
     arrow?: boolean;
     arrowSize?: number;
     background?: string;
+    children?: React.ReactNode;
     className?: string;
     color?: string;
     content: React.ReactNode;
